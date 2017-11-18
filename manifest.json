@@ -11,11 +11,11 @@
     "scripts": ["background.js"]
   },
   "icons": {
-    "32": "find.svg"
+    "32": "find2.svg"
   },
    "browser_action": {
     "default_icon": {
-     "32" : "find.svg"
+     "32" : "find2.svg"
     },
     
     "default_title": "Find across tabs",
