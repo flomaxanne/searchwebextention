@@ -4,23 +4,51 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="bootstrap.min.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </head>
+<style>
+body{
+background-color: #DDDDDD;
+position:static;
+
+}
+.btn-default:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+hr {
+     color: #ed1d61;
+     background-color: #ed1d61;
+}
+</style>
   <body>
     <div class="container">
-      <h3>Find across tabs</h3>
+ 
+      <h3>Find Across Tabs</h3>
       <p>Search across all the tabs and highlight the results in those tabs.</p>
-      <p><b>Please note</b>: this tab is excluded from the search.</p>
-      <form id="find-form">
-        <div class="form-group" id="form">
-          <input type="text" class="form-control" id="find-input" placeholder="Some text to find">
-        </div>
-      <button type="submit" class="btn btn-default">Find</button>
-      </form>
+      <form id="find-form">   
+         <div class="input-group" >
+      <input type="text" class="form-control" id="find-input" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button type="submit" class="btn btn-default" >Go!</button>
+      </span>
+    </div>
+    </form>
+     </div>
+     
+
       <hr>
-      <h3>Results</h3>
+<div>
+      <h3 style="margin-left:4%">Results</h3>
       <ul id="result-list">
      
       </ul>
+
     </div>
     <script src="find.js"></script>
   </body>
