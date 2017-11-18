@@ -1,0 +1,31 @@
+{
+  "description": "Find across all your tabs",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/find-across-tabs",
+  "manifest_version": 2,
+  "name": "Find across tabs",
+  "permissions": [
+    "find",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "32": "find.svg"
+  },
+   "browser_action": {
+    "default_icon": {
+     "32" : "find.svg"
+    },
+    
+    "default_title": "Find across tabs",
+    "default_popup": "popup/find.html"
+  },
+
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "strict_min_version": "57.0a1"
+    }
+  }
+}
