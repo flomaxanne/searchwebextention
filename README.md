@@ -1,1 +1,1 @@
-# searchwebextention
+# Search Across Tabs Web Extension
