@@ -4,13 +4,14 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="bootstrap.min.css"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </head>
 <style>
 body{
@@ -36,13 +37,13 @@ hr {
       <input type="text" class="form-control" id="find-input" placeholder="Search for...">
       <span class="input-group-btn">
         <button type="submit" class="btn btn-default" >Go!</button>
+        <input type="button"  class="btn btn-default" value="Remove"  onclick="removeText()">
+      </span>
       </span>
     </div>
     </form>
      </div>
-     
-
-      <hr>
+         <hr>
 <div>
       <h3 style="margin-left:4%">Results</h3>
       <ul id="result-list">
@@ -51,5 +52,7 @@ hr {
 
     </div>
     <script src="find.js"></script>
+   
+   
   </body>
 </html>
