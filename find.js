@@ -1,3 +1,11 @@
+
+function removeText()
+{
+	document.getElementById("find-input").value  = "";
+}
+
+
+
 let backgroundPage = browser.extension.getBackgroundPage();
 
 document.getElementById("find-form").addEventListener("submit", function(e) {
@@ -25,3 +33,4 @@ function handleMessage(request, sender, response) {
 }
 
 browser.runtime.onMessage.addListener(handleMessage);
+
